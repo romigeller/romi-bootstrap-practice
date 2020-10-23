@@ -10,3 +10,43 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+/* Add a black background color to the top navigation */
+
+.nav {
+  background-color: #a39191ad;
+
+  a:hover {
+    text-decoration: underline;
+    color: black;
+    } 
+}
+
+.nav-link {
+  color: white;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  background-image: url(../img/pirate-ship.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; 
+  font-family: 'Spirax', cursive;
+  color:white;
+  text-align: center;
+
+}
+
+.col-sm-8 {
+  font-family: 'Della Respira', serif;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(128, 128, 128);
+  color: white;
+  text-align: center;
+}
+
